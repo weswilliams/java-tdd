@@ -1,7 +1,12 @@
 package org.javatdd;
 
+import static org.mockito.Mockito.*;
+
+import org.testng.Assert;
 import org.testng.annotations.*;
- 
+
+import java.util.List;
+
 public class AppTest {
  
  @BeforeClass
@@ -10,7 +15,9 @@ public class AppTest {
  
  @Test()
  public void aFastTest() {
-   System.out.println("Fast test");
+     List mockList = mock(List.class);
+     when(mockList.get(0)).thenReturn("data");
+     Assert.assertEquals(mockList.get(0), "data", "we should have stubbed get(0)");
  }
  
 }
