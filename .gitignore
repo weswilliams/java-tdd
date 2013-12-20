@@ -4,3 +4,63 @@
 *.jar
 *.war
 *.ear
+target/
+log/
+
+
+# OS Files #
+.DS_Store
+
+# Windows image file caches
+Thumbs.db 
+Desktop.ini
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories #
+/build/
+/bin/
+
+# maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
+# Eclipse
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+# External tool builders
+.externalToolBuilders/
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+ 
+# PDT-specific
+.buildpath
+
+# Intellij
+.idea/
+*.iml
+*.iws
